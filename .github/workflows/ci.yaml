@@ -22,8 +22,6 @@ jobs:
       - name: Test workflow
         run: |
           python main.py
-
-          jobs:
   docker:
     runs-on: ubuntu-latest
     needs: test
